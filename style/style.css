@@ -1,0 +1,43 @@
+* {
+  margin: 1px;
+}
+
+div {
+  background-color: aquamarine;
+}
+
+.class {
+  background-color: beige;
+}
+
+#id {
+  background-color: blueviolet;
+}
+
+div[class*="atribute"] {
+  background-color: green;
+}
+
+div p {
+  font-size: 20px;
+}
+
+div > section {
+  background-color: black;
+}
+
+span ~ p {
+  background-color: chocolate;
+}
+
+.combo1 .combo1-inner {
+  color: rgb(47, 93, 77);
+}
+
+.combo2 [type="text"] {
+  color: blue;
+}
+
+div [type="password"] {
+  color: rgb(81, 255, 0);
+}
