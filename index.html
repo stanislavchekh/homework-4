@@ -8,42 +8,42 @@
   </head>
   <body>
     <div class="tag">
-      <p>Застосовується до тегів div</p>
+      <p>Застосовується до тегів div, вага 0,0,1</p>
     </div>
     <div class="class">
-      <p>Застосовується до класу "class"</p>
+      <p>Застосовується до класу "class", вага 0,1,0</p>
     </div>
     <div id="id">
-      <a href="#id">Застосовується до якірного посилання id</a>
+      <a href="#id">Застосовується до якірного посилання id, вага 1,0,0</a>
     </div>
     <div class="atribute">
-      <a href="#">Застосовується до атрибута #</a>
+      <a href="#">Застосовується до атрибута #, вага 0,1,1</a>
     </div>
     <div class="nested-selectors">
-      <p>Застосовується до контекстних селекторів</p>
+      <p>Застосовується до контекстних селекторів, вага 0,0,2</p>
     </div>
     <div class="child-selectors">
-      <p>Застосовується до дочірнього селектора section</p>
+      <p>Застосовується до дочірнього селектора section, вага 0,0,2</p>
       <section class="example">
         <p>invisible</p>
       </section>
     </div>
     <div class="sequence-of-selectors">
-      <p>Послідовність селекторів p після span</p>
+      <p>Послідовність селекторів p після span, вага 0,0,2</p>
       <span>span</span>
       <p>bro1</p>
       <p>bro2</p>
     </div>
     <div class="combo1">
-      <p class="combo1-inner">клас + вкладеність</p>
+      <p class="combo1-inner">клас + вкладеність, вага 0,2,0</p>
     </div>
     <div class="combo2">
       <input type="text" />
-      <!-- клас + атрибут -->
+      <p>клас + атрибут, вага 0,2,0</p>
     </div>
     <div class="combo3">
       <input type="password" />
-      <!-- тег та атрибут -->
+      <p>тег + атрибут, вага 0,1,1</p>
     </div>
   </body>
 </html>
